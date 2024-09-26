@@ -348,7 +348,7 @@ func main() {
 	fmt.Scan(&minSize)
 
 	// Cargar dataset desde un archivo
-	data, err := loadDataset("codigo/data_limpia.csv")
+	data, err := loadDataset("datita.csv")
 	if err != nil {
 		fmt.Println("Error cargando el dataset:", err)
 		return
